@@ -7,7 +7,7 @@ def print_first_row(group):
     return group.iloc[[0]]
 
 
-data = pd.read_csv(r"C:\Users\HP\Desktop\amazon_product_data\recommendation_data_amazon.csv")
+data = pd.read_csv("recommendation_data_amazon.csv")
 del data['Unnamed: 0']
 
 
