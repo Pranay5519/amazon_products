@@ -4,7 +4,7 @@ from PIL import Image
 import requests
 
 st.title("Amazon Product Recommendation")
-data = pd.read_csv(r"C:\Users\HP\Desktop\amazon_product_data\amazon_product_data.csv")
+data = pd.read_csv("amazon_product_data.csv")
 
 categories = data['category'].unique().tolist()
 cat_input = st.sidebar.selectbox('Categories' , categories)
