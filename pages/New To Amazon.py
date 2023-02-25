@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-path = r'C:\Users\HP\Desktop\amazon_product_data\new_to_amazon.csv'
+path = 'new_to_amazon.csv'
 
 df = pd.read_csv(path)
 df = df.sample(frac=1)
